@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        /* I do NOT like css cuh*/
+        body {
+            background-color: black
+        }
+
+        p {
+            text-align: center;
+            color: snow;
+        }
+
+        h1.large {
+            font-size: 400%
+        }
+
+        h1 {
+            text-align: center;
+            color: snow;
+        }
+
+        h2 {
+            text-align: center;
+            color: snow;
+        }
+
+        h3 {
+            text-align: center;
+            color: snow;
+        }
+    </style>
+    <h1 style="background-color:black;">Wassup Yall</h1>
+    <h1 class="center large"> My personal webpage/resume thing</h1>
+</head>
+<body>
+    <h2> By Mel Cabuslay </h2>
+    <h3>Hello this is my personal page </h3>
+    <p style="background-color:snow;">work experience
+    <p>June 2024-Augest 2024</p>
+    <p class="center large"> I am currently interning for Stanislaus Workforce and Im lear </p>
+    <p>My learning right now is going really well so far </p>
+    <p style="background-color:snow;">Intern</p>
+    <p style="background-color:snow;">Modesto City Schools August 2023-Present</p>
+</body>
+</html>
