@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+}
+
+p {
+    text-align: center;
+    color: Black;
+}
+
+h1.large {
+    font-size: 400%
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: black;
+}
+
+    h3.large {
+        font-size: 300%;
+    }
+
+    h4.large {
+        font-size: 200%;
+    }
+
+    h5.large {
+        font-size: 300%;
+    }
+
+    h6.large {
+        font-size: 300%;
+    }
+
+.test-height {
+    height: 400px;
+}
+
+#summary {
+    background-color: white;
+    text-align: center;
+}
