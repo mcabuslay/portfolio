@@ -40,3 +40,9 @@ h1, h2, h3, h4, h5, h6 {
     background-color: white;
     text-align: center;
 }
+.card-group {
+    position: absolute; /* or absolute, fixed, sticky */
+    bottom: 0px; /* Adjust as needed */
+    width: 100%
+}
+
