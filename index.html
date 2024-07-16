@@ -37,9 +37,7 @@
         </div>
     </nav>
     <h1 class="center large"> My personal webpage</h1>
-    <div class="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3">
         <h2> By Mel Cabuslay </h2>
-    </div>
     <div class="test-height" id="summary" style="height: 400px">
         <h3>Summary</h3>
         <h3>I am a person that is tech oriented and has a lot of skills in that area, includng understanding of html and css. Also proficient in git and linux commands and a lot of IT experience.</h3>
@@ -62,6 +60,34 @@
                     <small class="text-body-secondary">Last updated 7/10/24</small>
                 </div>
             </div>
+            <script>
+                const data = null;
+
+                const xhr = new XMLHttpRequest();
+                xhr.withCredentials = true;
+
+                xhr.addEventListener('readystatechange', function () {
+                    if (this.readyState === this.DONE) {
+                        console.log(this.responseText);
+                    }
+                });
+
+                xhr.open('GET', 'https://cis-automotive.p.rapidapi.com/getDealersByID?dealerID=29319');
+                xhr.setRequestHeader('x-rapidapi-key', 'Sign Up for Key');
+                xhr.setRequestHeader('x-rapidapi-host', 'cis-automotive.p.rapidapi.com');
+
+                xhr.send(data);
+
+                fetch('https://api.example.com/data')
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(data);
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+
+            </script>
         </div>
 </body>
 </html>
